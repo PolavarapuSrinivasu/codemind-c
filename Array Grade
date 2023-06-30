@@ -1,0 +1,23 @@
+#include<stdio.h>
+int grade(int n)
+{
+	if(n>=90) printf("A ");
+	else if(n>=80 && n<90) printf("B ");
+	else if(n>=70 && n<80) printf("C ");
+	else if(n>=60 && n<70) printf("D ");
+	else printf("E ");
+}
+int main()
+{
+	int s,i;
+	scanf("%d",&s);
+	int a[s];
+	for(i=0;i<s;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<s;i++)
+	{
+	   grade(a[i]);
+    }
+}
