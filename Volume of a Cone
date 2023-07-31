@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define PI 3.14159
+
+int main() {
+    float radius, height;
+    printf("Enter the radius of the cone: ");
+    scanf("%f", &radius);
+    printf("Enter the height of the cone: ");
+    scanf("%f", &height);
+    float volume = (1.0 / 3.0) * PI * radius * radius * height;
+    printf("Volume of the cone: %f\n", volume);
+    return 0;
+}
