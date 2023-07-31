@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float side1, side2, side3;
+    printf("Enter the length of the first side: ");
+    scanf("%f", &side1);
+    printf("Enter the length of the second side: ");
+    scanf("%f", &side2);
+    printf("Enter the length of the third side: ");
+    scanf("%f", &side3);
+    float perimeter = side1 + side2 + side3;
+    printf("Perimeter of the triangle: %f\n", perimeter);
+    return 0;
+}
