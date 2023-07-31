@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define PI 3.14159
+
+int main() {
+    float radius, height;
+    printf("Enter the radius of the cylinder: ");
+    scanf("%f", &radius);
+    printf("Enter the height of the cylinder: ");
+    scanf("%f", &height);
+    float volume = PI * radius * radius * height;
+    printf("Volume of the cylinder: %f\n", volume);
+    return 0;
+}
