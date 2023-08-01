@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float side;
+    printf("Enter the side length of the equilateral triangle: ");
+    scanf("%f", &side);
+    float perimeter = 3 * side;
+    printf("Perimeter of the equilateral triangle: %f\n", perimeter);
+    return 0;
+}
