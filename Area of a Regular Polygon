@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num_sides;
+    float side_length;
+    printf("Enter the number of sides of the polygon: ");
+    scanf("%d", &num_sides);
+    printf("Enter the length of each side: ");
+    scanf("%f", &side_length);
+    float area = (num_sides * side_length * side_length) / (4 * tan(M_PI / num_sides));
+    printf("Area of the polygon: %f\n", area);
+    return 0;
+}
