@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float length, width, height;
+    printf("Enter the length of the rectangular prism: ");
+    scanf("%f", &length);
+    printf("Enter the width of the rectangular prism: ");
+    scanf("%f", &width);
+    printf("Enter the height of the rectangular prism: ");
+    scanf("%f", &height);
+    float volume = length * width * height;
+    printf("Volume of the rectangular prism: %f\n", volume);
+    return 0;
+}
