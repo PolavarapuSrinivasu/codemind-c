@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int num_sides;
+    float side_length;
+    printf("Enter the number of sides of the polygon: ");
+    scanf("%d", &num_sides);
+    printf("Enter the length of each side: ");
+    scanf("%f", &side_length);
+    float perimeter = num_sides * side_length;
+    printf("Perimeter of the polygon: %f\n", perimeter);
+    return 0;
+}
