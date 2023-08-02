@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define PI 3.14159
+
+int main() {
+    float semi_major_axis, semi_minor_axis;
+    printf("Enter the semi-major axis of the ellipse: ");
+    scanf("%f", &semi_major_axis);
+    printf("Enter the semi-minor axis of the ellipse: ");
+    scanf("%f", &semi_minor_axis);
+    float perimeter = 2 * PI * sqrt((semi_major_axis * semi_major_axis + semi_minor_axis * semi_minor_axis) / 2);
+    printf("Perimeter of the ellipse: %f\n", perimeter);
+    return 0;
+}
