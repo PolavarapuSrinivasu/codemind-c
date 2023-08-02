@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float apothem, side_length;
+    printf("Enter the apothem (distance from the center to a side) of the pentagon: ");
+    scanf("%f", &apothem);
+    printf("Enter the length of each side of the pentagon: ");
+    scanf("%f", &side_length);
+    float area = (5.0 / 2.0) * apothem * side_length;
+    printf("Area of the pentagon: %f\n", area);
+    return 0;
+}
