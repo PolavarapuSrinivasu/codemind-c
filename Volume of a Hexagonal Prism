@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float side_length, height;
+    printf("Enter the side length of the hexagon: ");
+    scanf("%f", &side_length);
+    printf("Enter the height of the hexagonal prism: ");
+    scanf("%f", &height);
+    float base_area = (3 * sqrt(3) * side_length * side_length) / 2;
+    float volume = base_area * height;
+    printf("Volume of the hexagonal prism: %f\n", volume);
+    return 0;
+}
