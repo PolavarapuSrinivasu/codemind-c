@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float base_area, height, length;
+    printf("Enter the base area of the triangular base: ");
+    scanf("%f", &base_area);
+    printf("Enter the height of the triangular prism: ");
+    scanf("%f", &height);
+    printf("Enter the length of the triangular prism: ");
+    scanf("%f", &length);
+    float volume = base_area * height * length;
+    printf("Volume of the triangular prism: %f\n", volume);
+    return 0;
+}
