@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define PI 3.14159
+
+int main() {
+    float radius, angle;
+    printf("Enter the radius of the sector: ");
+    scanf("%f", &radius);
+    printf("Enter the angle in radians of the sector: ");
+    scanf("%f", &angle);
+    float perimeter = radius * angle;
+    printf("Perimeter of the sector: %f\n", perimeter);
+    return 0;
+}
