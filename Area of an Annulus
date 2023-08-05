@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define PI 3.14159
+
+int main() {
+    float outer_radius, inner_radius;
+    printf("Enter the outer radius of the annulus: ");
+    scanf("%f", &outer_radius);
+    printf("Enter the inner radius of the annulus: ");
+    scanf("%f", &inner_radius);
+    float area = PI * (outer_radius * outer_radius - inner_radius * inner_radius);
+    printf("Area of the annulus: %f\n", area);
+    return 0;
+}
